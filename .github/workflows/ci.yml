@@ -2,9 +2,9 @@ name: Tests
 
 on:
   push:
-    branches: [master]
+    branches: [filetype-sync]
   pull_request:
-    branches: [master]
+    branches: [filetype-sync]
 
 # Cancel any in-progress CI runs for a PR if it is updated
 concurrency:
